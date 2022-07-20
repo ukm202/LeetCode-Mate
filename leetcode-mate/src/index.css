@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caudex&family=Petit+Formal+Script&family=Poppins:wght@300;400;500;600&family=Roboto:ital,wght@1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --color-bg: #1f1f38;
+    --color-bg-variant: #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77,181,255,0.4);
+    --color-orange: rgb(255, 183, 0);
+    --color-white: #fff;
+    --color-light: rgba(255,255,255,0.6);
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+    --transition: all 400ms ease;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    background: var(--color-bg);
+    color: var(--color-white);
+    line-height: 1.7;
+    /* background-image: url(); */
+
+    background: url(./Assests/img2.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a{
+    color: var(--color-white);
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+a:hover{
+    
+    color: var(--color-orange);
+}
+a:active {
+color: teal;
+}
+
+
