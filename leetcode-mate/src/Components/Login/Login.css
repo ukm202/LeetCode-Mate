@@ -1,0 +1,121 @@
+.wrapper{
+    width: 380px;
+    height: 420px;
+    color: white;
+    left: 75%;
+    top: 50%;
+    padding: 60px, 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 50px white;
+    border-radius: 20px;
+
+}
+
+.wrapper > h1{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    /* font-size: 13px; */
+    text-align: center;
+    margin-bottom: 8%;
+    margin-top: 8%;
+
+}
+
+.wrapper input{
+    width: 80%;
+    margin-bottom: 20px;
+}
+.wrapper input[type=email], .wrapper input[type=password]{
+    border: none;
+    border-bottom: 0.5px solid white;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    font-size: 16px;
+    opacity: 0.8;
+    color: white;
+
+}
+
+.wrapper input[type=submit]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(255, 183, 0);
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    /* cursor: pointer; */
+}
+.wrapper input[type=submit]:hover{
+    cursor: pointer;
+    background: teal;
+    color: white;
+    transition: var(--transition);
+
+}
+
+.wrapper a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+}
+
+.wrapper a:hover{
+    opacity: 1.0;
+}
+
+.bottom-text{
+    color: white;
+    width: 90%;
+    /* padding:0 40px; */
+    
+    
+}
+
+.bottom-text label{
+    width: 10%;
+    /* float: left; */
+}
+.bottom-text input{
+    width: 10%;
+}
+.bottom-text a{
+    float: right;
+}
+
+.socials{
+    margin-top: 12%;
+   
+}
+.socials a{
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.socials a:nth-child(1){
+    color: #3b5998;
+    
+}
+.socials a:nth-child(2){
+    color: #55acee;
+    
+}
+.socials a:nth-child(3){
+    color: #0077b5;
+    
+}
+
+.overlay-area{
+    position: absolute;
+    background: rgba(f,f,f,0.5);
+    z-index: -5;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}

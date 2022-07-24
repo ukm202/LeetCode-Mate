@@ -22,7 +22,7 @@
     font-size: 1.4rem;
     opacity: 0.6;
 }
-.login{
+.join-now{
     font-family: 'Poppins', sans-serif;
    
     /* width: max-content; */
@@ -34,7 +34,7 @@
     color: var(--color-white);
     border-radius: 0.4rem;
 }
-.login:hover{
+.join-now:hover{
     border: 1px solid var(--color-white);
 
 }

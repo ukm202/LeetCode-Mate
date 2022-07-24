@@ -1,5 +1,5 @@
 import Home from "./Components/Home/Home";
-import Login from "./Components/Login/Login";
+import JoinNow from "./Components/Join-now/JoinNow";
 import Navbar from "./Components/Navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -9,7 +9,7 @@ const App = ()=>{
             <Navbar />
             <Routes>
                 <Route path='/' exact element={<Home />} />
-                <Route path='/login' element={<Login />} />
+                <Route path='/join-now' element={<JoinNow />} />
 
             </Routes>
 
